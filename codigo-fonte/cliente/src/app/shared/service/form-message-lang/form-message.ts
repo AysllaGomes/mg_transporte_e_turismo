@@ -1,0 +1,54 @@
+export interface FormMessage {
+
+    messageNotFound: any;
+    required: any;
+    minlength: any;
+    maxlength: any;
+    pattern: any;
+    rangeLength: any;
+    length: any;
+    min: any;
+    gt: any;
+    gte: any;
+    max: any;
+    lt: any;
+    lte: any;
+    range: any;
+    digits: any;
+    number: any;
+    url: any;
+    email: any;
+    date: any;
+    minDate: any;
+    maxDate: any;
+    dateISO: any;
+    monthYear: any;
+    creditCard: any;
+    json: any;
+    base64: any;
+    phone: any;
+    uuid: any;
+    equal: any;
+    notEqual: any;
+    equalTo: any;
+    notEqualTo: any;
+    cpf: any;
+    cnpj: any;
+    cep: any;
+    cnae: any;
+    arrayMinChecked: any;
+    passwordRules: any;
+    required_unless: any;
+    size: any;
+    alphabetic: any;
+    areEquals: any;
+    requiredWithout: any;
+    requiredWith: any;
+    userActivated: any;
+    userInactivated: any;
+    registrationNumberEntity: any;
+    socialSecurity: any;
+    socialSecurityCraftsman: any;
+    minLengthMessage: any;
+
+}
