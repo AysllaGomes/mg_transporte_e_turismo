@@ -21,4 +21,4 @@ RUN chmod +x /usr/local/bin/build.sh
 
 EXPOSE 80
 
-CMD [ "sh", "-c", "envsubst < html/src/assets/env/env.template.js > html/src/assets/env/env.js ; /usr/local/bin/build.sh ; httpd -DFOREGROUND" ]
+CMD [ "sh", "-c", "/usr/local/bin/build.sh ; httpd -DFOREGROUND" ]

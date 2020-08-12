@@ -14,12 +14,14 @@ fi
 mkdir "dist"
 
 export NG_CLI_ANALYTICS=false
+
 echo "Instalando o node"
 npm install
 
 buildEnv=${AMBIENTE:=prod}
+
 echo "Buildando o projeto - ambiente: $buildEnv"
-ng build --configuration=$buildEnv
+ng build --prod
 
 echo "Mudando o dono da pasta dist"
 chown -R 1000:1000 dist
