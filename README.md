@@ -1,6 +1,6 @@
 # MG Transporte & Turismo LTDA
 
-O sistema "MG Transorte & TurismoE" é uma aplicação desenvolvida com Java e Angular. Deve-se seguir atentamente 
+O sistema "MG Transorte & Turismo LTDA" é uma aplicação desenvolvida com PHP (Laravel) e Angular. Deve-se seguir atentamente 
 as orientações a seguir para configurar o seu ambiente.
 
 1º- O projeto necessita que sejam instalados o "docker", "docker-compose", "node", "npm instalados" em seu ambiente.  
