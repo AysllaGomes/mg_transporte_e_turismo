@@ -15,14 +15,18 @@ A seguir estarão as opções para subir o projeto de acordo com o ambiente dese
 
 # AMBIENTE LOCAL
 
--- ---
+1º - O comando a ser executado é: "docker-compose -f local.yml up --build -d"
+ 
+# AMBIENTE DESENVOLVIMENTO
+
+1º - O comando a ser executado é: "docker-compose -f development.yml up --build -d"
  
 # AMBIENTE HOMOLOGAÇÃO
 
--- ---
+1º - O comando a ser executado é: "docker-compose -f homolog.yml up --build -d"
  
 # AMBIENTE PRODUÇÃO
 
- -- ---
+1º - O comando a ser executado é: "docker-compose -f production.yml up --build -d"
 
 Após seguir atentamente os passos acima, abra o browser de sua preferência insira a url mapeada no seu /etc/hots.
