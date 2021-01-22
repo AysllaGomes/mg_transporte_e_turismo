@@ -14,10 +14,10 @@ export class BasicInfoService {
         orgaoTema: 'Economia',
         orgaoNome: 'Ministério da Economia',
         unidadeClassificacao: 'Secretaria',
-        unidadeTema: 'Avalia ME',
-        unidadeNome: 'Avalia ME',
-        sistemaNome: 'Avalia ME',
-        descricao: 'Avalia ME',
+        unidadeTema: 'MG Transporte & Turismo',
+        unidadeNome: 'MG Transporte & Turismo',
+        sistemaNome: 'MG Transporte & Turismo',
+        descricao: 'MG Transporte & Turismo',
         idioma: 'pt-br'
     };
 
